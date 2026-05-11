@@ -11,148 +11,126 @@ export const skillsUnsorted: skillsInterface[] = [
   {
     name: "Next.js",
     description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+      "Dinamik ilovalarni marshrutlash, tartiblar, yuklash interfeysi va API marshrutlari bilan bemalol yarata oladi.",
     rating: 5,
     icon: Icons.nextjs,
   },
   {
     name: "React",
     description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
+      "Komponentlar, holat, rekvizitlar va virtual DOM yordamida interaktiv foydalanuvchi interfeyslarini yaratish uchun.",
     rating: 5,
     icon: Icons.react,
   },
   {
     name: "GraphQL",
     description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
+      "API va ish vaqti bajarilishi uchun kuchli so'rovlar tili bilan ma'lumotlarni aniq ishlaydi.",
     rating: 4,
     icon: Icons.graphql,
   },
   {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
     name: "express.js",
     description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
+      "Tez, noaniq Node.js ramkasidan foydalanib, tezda veb-ilovalar va API-larni yaratadi.",
     rating: 5,
     icon: Icons.express,
   },
   {
     name: "Node.js",
     description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
+      "JavaScript-ni server tomonida ishga tushiring, bu dinamik va sezgir ilovalarni yoqadi.",
     rating: 5,
     icon: Icons.nodejs,
   },
   {
     name: "MongoDB",
     description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
+      "Moslashuvchan va kengaytiriladigan NoSQL ma'lumotlar bazasi bilan ma'lumotlarni muammosiz saqlaydi va oladi.",
     rating: 5,
     icon: Icons.mongodb,
   },
   {
     name: "Typescript",
     description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
+      "JavaScript-ni statik turlar bilan yaxshilaydi, kodni tushunarli va ishonchli qiladi.",
     rating: 5,
     icon: Icons.typescript,
   },
   {
     name: "Javascript",
     description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
+      "Ko'p qirrali skript tili bilan interaktiv va dinamik veb-tajribalarni yaratadi.",
     rating: 5,
     icon: Icons.javascript,
   },
   {
     name: "HTML 5",
     description:
-      "Structure web content beautifully with the latest version of HyperText Markup Language.",
+      "HyperText Markup Languagening so‘nggi versiyasi bilan veb-kontentni chiroyli tarzda tuzadi.",
     rating: 4,
     icon: Icons.html5,
   },
   {
     name: "CSS 3",
     description:
-      "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
+      "Kaskadli uslublar jadvallarining so'nggi iteratsiyasi bilan veb-sahifalarni ijodiy tarzda yaratadi.",
     rating: 4,
     icon: Icons.css3,
   },
   {
     name: "React Native",
     description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
+      "Barqaror va qiziqarli tajribalar uchun React yordamida platformalar aro mobil ilovalarni ishlab chiqadi.",
     rating: 4,
     icon: Icons.react,
   },
   {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
     name: "Redux",
     description:
-      "Manage app state effectively using a predictable and centralized state container.",
+      "Prognoz qilinadigan va markazlashtirilgan holat konteyneridan foydalanib, ilova holatini samarali boshqaradi.",
     rating: 4,
     icon: Icons.redux,
   },
   {
     name: "Socket.io",
     description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
+      "Mijozlar va serverlar o'rtasida real vaqt rejimida ikki tomonlama aloqani osonlik bilan yoqadi.",
     rating: 3,
     icon: Icons.socketio,
   },
   {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
-
-  {
     name: "Tailwind CSS",
     description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
+      "Birinchi yordamchi CSS tizimi yordamida chiroyli, zamonaviy veb-saytlarni tezroq loyihalash.",
     rating: 5,
     icon: Icons.tailwindcss,
   },
   {
     name: "AWS",
     description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
+      "Kengaytirilgan, ishonchli va xavfsiz ilovalarni yaratish va joylashtirish uchun Amazon veb-xizmatlaridan foydalanish uchun.",
     rating: 3,
     icon: Icons.amazonaws,
   },
   {
     name: "Bootstrap",
     description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
+      "Ommabop CSS ramkasidan foydalangan holda tezda sezgir va jozibali veb-dizaynlarni yaratadi.",
     rating: 2,
     icon: Icons.bootstrap,
   },
   {
     name: "MySQL",
     description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
+      "Ma'lumotlarga asoslangan ilovalar uchun relyatsion ma'lumotlar bazalarini samarali boshqaring va tashkil qiladi.",
     rating: 2,
     icon: Icons.mysql,
   },
   {
     name: "Netlify",
     description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
+      "Ma'lumotlarga asoslangan ilovalar uchun relyatsion ma'lumotlar bazalarini samarali boshqaring va tashkil qiladi.",
     rating: 4,
     icon: Icons.netlify,
   },

@@ -10,7 +10,7 @@ import CustomTooltip from "@/components/ui/custom-tooltip";
 import { Projects } from "@/config/projects";
 import { siteConfig } from "@/config/site";
 import { cn, formatDateFromObj } from "@/lib/utils";
-import profileImg from "@/public/profile-img.jpg";
+import profileImg from "@/public/profile-img.png";
 
 interface ProjectPageProps {
   params: Promise<{
@@ -18,7 +18,6 @@ interface ProjectPageProps {
   }>;
 }
 
-const githubUsername = "namanbarkiya";
 
 export default async function Project({ params }: ProjectPageProps) {
   const { projectId } = await params;
@@ -37,7 +36,7 @@ export default async function Project({ params }: ProjectPageProps) {
         )}
       >
         <Icons.chevronLeft className="mr-2 h-4 w-4" />
-        All Projects
+        Barcha loyhalar
       </Link>
       <div>
         <time
@@ -80,7 +79,7 @@ export default async function Project({ params }: ProjectPageProps) {
             />
 
             <div className="flex-1 text-left leading-tight">
-              <p className="font-medium">{"Naman Barkiya"}</p>
+              <p className="font-medium">{"Asliddin Nuriddinov"}</p>
               <p className="text-[12px] text-muted-foreground">
                 @{siteConfig.username}
               </p>
@@ -100,14 +99,14 @@ export default async function Project({ params }: ProjectPageProps) {
 
       <div className="mb-7 ">
         <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-2">
-          Tech Stack
+          To'plam
         </h2>
         <ChipContainer textArr={project.techStack} />
       </div>
 
       <div className="mb-7 ">
         <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-2">
-          Description
+          Tavsif
         </h2>
         {/* {<project.descriptionComponent />} */}
         <ProjectDescription
@@ -118,7 +117,7 @@ export default async function Project({ params }: ProjectPageProps) {
 
       <div className="mb-7 ">
         <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-5">
-          Page Info
+          Sahifa haqida
         </h2>
         {project.pagesInfoArr.map((page, ind) => (
           <div key={ind}>
@@ -150,7 +149,7 @@ export default async function Project({ params }: ProjectPageProps) {
           className={cn(buttonVariants({ variant: "ghost" }))}
         >
           <Icons.chevronLeft className="mr-2 h-4 w-4" />
-          All Projects
+          Barcha loyhalar
         </Link>
       </div>
     </article>

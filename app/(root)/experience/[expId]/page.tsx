@@ -69,7 +69,7 @@ export default async function ExperienceDetailPage({
   const tabItems = [
     {
       value: "summary",
-      label: "Summary",
+      label: "Xulosa",
       content: (
         <AnimatedSection delay={0.3}>
           <div>
@@ -93,7 +93,7 @@ export default async function ExperienceDetailPage({
     },
     {
       value: "achievements",
-      label: "Achievements",
+      label: "Yutuqlar",
       content: (
         <AnimatedSection delay={0.3}>
           <div>
@@ -117,17 +117,16 @@ export default async function ExperienceDetailPage({
     },
     {
       value: "skills",
-      label: "Skills",
+      label: "Ko'nikmalar",
       content: (
         <AnimatedSection delay={0.3}>
           <div>
             <h3 className="font-semibold mb-4 text-sm uppercase tracking-wide text-muted-foreground">
-              Technologies & Skills
+              Texnologiyalar & Ko'nikmalar
             </h3>
             <ChipContainer textArr={experience.skills} />
             <p className="mt-4 text-sm text-muted-foreground">
-              These are the primary technologies and skills utilized during my
-              time at {experience.company}.
+              Bular mening ishim davomida foydalanilgan asosiy texnologiyalar va ko'nikmalardir {experience.company}.
             </p>
           </div>
         </AnimatedSection>
@@ -142,7 +141,7 @@ export default async function ExperienceDetailPage({
           <Button variant="ghost" size="sm" className="mb-4" asChild>
             <Link href="/experience">
               <Icons.chevronLeft className="mr-2 h-4 w-4" />
-              Back to Experience
+              Ortga
             </Link>
           </Button>
         </AnimatedSection>
@@ -210,7 +209,7 @@ export default async function ExperienceDetailPage({
           <Button variant="outline" asChild>
             <Link href="/experience">
               <Icons.chevronLeft className="mr-2 h-4 w-4" />
-              View All Experience
+              Barcha tajribalarni ko'rish
             </Link>
           </Button>
         </AnimatedSection>

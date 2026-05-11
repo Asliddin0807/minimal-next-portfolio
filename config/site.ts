@@ -1,13 +1,13 @@
 export const siteConfig = {
-  name: "Naman Barkiya - Applied AI Engineer",
-  authorName: "Naman Barkiya",
-  username: "namanbarkiya",
+  name: "Asliddin Nuriddinov - Programming Engineer",
+  authorName: "Asliddin Nuriddinov",
+  username: "aslnuriddinov",
   description:
-    "Naman Barkiya - Applied AI Engineer working at the intersection of AI, data, and scalable software systems. Explore my projects, experience, and contributions in software development and AI.",
+    "Asliddin Nuriddinov - Dasturchi muhandislik ishlari!",
   url: "https://nbarkiya.xyz",
   links: {
-    twitter: "https://x.com/namanbarkiya",
-    github: "https://github.com/namanbarkiya",
+    twitter: "https:t.me/Asliddinjan_N",
+    github: "https://github.com/Asliddin0807",
     templateRepo: "https://github.com/namanbarkiya/minimal-next-portfolio",
   },
   ogImage:
@@ -17,7 +17,7 @@ export const siteConfig = {
   logoIcon:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
   keywords: [
-    "Naman Barkiya",
+    "Asliddin Nuriddinov",
     "Applied AI Engineer",
     "AI Engineer",
     "Software Engineer",

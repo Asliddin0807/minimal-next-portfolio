@@ -21,12 +21,12 @@ import { siteConfig } from "@/config/site";
 import { featuredSkills } from "@/config/skills";
 import { getFeaturedBlogs } from "@/lib/blogs";
 import { cn } from "@/lib/utils";
-import profileImg from "@/public/profile-img.jpg";
+import profileImg from "@/public/profile-img.png";
 
 export const metadata: Metadata = {
   title: `${pagesConfig.home.metadata.title}`,
   description:
-    "Naman Barkiya - Applied AI Engineer working at the intersection of AI, data, and scalable software systems. Explore my projects, experience, and contributions.",
+    "Asliddin Nuriddinov - Dasturchi muhandis yo'nalishlaridagi barcha jamlanmalari!",
   alternates: {
     canonical: siteConfig.url,
   },
@@ -41,7 +41,7 @@ export default function IndexPage() {
     name: siteConfig.authorName,
     url: siteConfig.url,
     image: siteConfig.ogImage,
-    jobTitle: "Applied AI Engineer",
+    jobTitle: "Dasturchi muhandis",
     sameAs: [siteConfig.links.github, siteConfig.links.twitter],
   };
 
@@ -49,7 +49,7 @@ export default function IndexPage() {
   const softwareSchema = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: "Next.js Portfolio Template",
+    name: "Next.js Portfolio",
     applicationCategory: "DeveloperApplication",
     operatingSystem: "Web",
     offers: {
@@ -85,7 +85,7 @@ export default function IndexPage() {
             width={100}
             sizes="100vw"
             className="bg-primary rounded-full mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] border-8 border-primary"
-            alt="Naman Barkiya - Applied AI Engineer Portfolio"
+            alt="Nuriddinov Asliddin"
             priority
           />
           <AnimatedText
@@ -93,19 +93,18 @@ export default function IndexPage() {
             delay={0.2}
             className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
           >
-            Naman Barkiya
+            Asliddin Nuriddinov
           </AnimatedText>
           <AnimatedText
             as="h3"
             delay={0.4}
             className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl"
           >
-            Applied AI Engineer
+            Dasturchi muhandis
           </AnimatedText>
           <div className="mt-4 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              Software engineer working at the intersection of AI, data, and
-              scalable software systems.
+              Web va mobil ilovalar shuningdek server va bazalar bilan ishlay oladigan dasturchi muhandis
             </p>
           </div>
 
@@ -117,7 +116,7 @@ export default function IndexPage() {
                 className={cn(buttonVariants({ size: "lg" }))}
                 aria-label="View resume"
               >
-                <Icons.post className="w-4 h-4 mr-2" /> Resume
+                <Icons.post className="w-4 h-4 mr-2" /> Rezyume
               </Link>
             </AnimatedText>
             <AnimatedText delay={0.8}>
@@ -130,9 +129,9 @@ export default function IndexPage() {
                     size: "lg",
                   })
                 )}
-                aria-label="Contact Naman Barkiya"
+                aria-label="Contact Asliddin Nuriddinov"
               >
-                <Icons.contact className="w-4 h-4 mr-2" /> Contact
+                <Icons.contact className="w-4 h-4 mr-2" /> Bog'lanish
               </Link>
             </AnimatedText>
           </div>
@@ -178,7 +177,7 @@ export default function IndexPage() {
         <AnimatedText delay={0.4} className="flex justify-center">
           <Link href="/projects">
             <Button variant={"outline"} className="rounded-xl">
-              <Icons.chevronDown className="mr-2 h-4 w-4" /> View All
+              <Icons.chevronDown className="mr-2 h-4 w-4" /> Barchasini ko'rish
             </Button>
           </Link>
         </AnimatedText>
@@ -217,7 +216,7 @@ export default function IndexPage() {
         <AnimatedText delay={0.4} className="flex justify-center">
           <Link href="/experience">
             <Button variant={"outline"} className="rounded-xl">
-              <Icons.chevronDown className="mr-2 h-4 w-4" /> View All
+              <Icons.chevronDown className="mr-2 h-4 w-4" /> Barchasini ko'rish
             </Button>
           </Link>
         </AnimatedText>
@@ -246,7 +245,7 @@ export default function IndexPage() {
         <AnimatedText delay={0.4} className="flex justify-center">
           <Link href="/contributions">
             <Button variant={"outline"} className="rounded-xl">
-              <Icons.chevronDown className="mr-2 h-4 w-4" /> View All
+              <Icons.chevronDown className="mr-2 h-4 w-4" /> Barchasini ko'rish
             </Button>
           </Link>
         </AnimatedText>
@@ -286,7 +285,7 @@ export default function IndexPage() {
         <AnimatedText delay={0.4} className="flex justify-center">
           <Link href="/blogs">
             <Button variant={"outline"} className="rounded-xl">
-              <Icons.chevronDown className="mr-2 h-4 w-4" /> View All
+              <Icons.chevronDown className="mr-2 h-4 w-4" /> Barchasini ko'rish
             </Button>
           </Link>
         </AnimatedText>
@@ -315,7 +314,7 @@ export default function IndexPage() {
         <AnimatedText delay={0.4} className="flex justify-center">
           <Link href="/skills">
             <Button variant={"outline"} className="rounded-xl">
-              <Icons.chevronDown className="mr-2 h-4 w-4" /> View All
+              <Icons.chevronDown className="mr-2 h-4 w-4" /> Barchasini ko'rish
             </Button>
           </Link>
         </AnimatedText>

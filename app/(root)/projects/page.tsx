@@ -32,12 +32,12 @@ export default function ProjectsPage() {
   const tabItems = [
     {
       value: "all",
-      label: "All",
+      label: "Barchasi",
       content: renderContent("all"),
     },
     {
       value: "personal",
-      label: "Personal",
+      label: "Shaxsiy",
       content: renderContent("personal"),
     },
     {

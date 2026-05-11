@@ -1,31 +1,27 @@
 export const routesConfig: any = {
   mainNav: [
     {
-      title: "Projects",
+      title: "Loyhalar",
       href: "/projects",
     },
     {
-      title: "Experience",
+      title: "Tajribalar",
       href: "/experience",
     },
     {
-      title: "Contributions",
+      title: "Hissalar",
       href: "/contributions",
     },
     {
-      title: "Skills",
+      title: "Ko'nikmalar",
       href: "/skills",
     },
     {
-      title: "Blogs",
+      title: "Bloglar",
       href: "/blogs",
     },
     {
-      title: "Community",
-      href: "/community",
-    },
-    {
-      title: "Contact",
+      title: "Aloqa",
       href: "/contact",
     },
   ],

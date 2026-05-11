@@ -14,72 +14,72 @@ type PagesConfig = {
 
 export const pagesConfig: PagesConfig = {
   home: {
-    title: "Home",
-    description: "Welcome to my portfolio website.",
+    title: "Bosh sahifa",
+    description: "Mening web dasturimga xush kelibsiz",
     metadata: {
-      title: "Home",
-      description: "Naman Barkiya's portfolio website.",
+      title: "Bosh sahifa",
+      description: "Asliddin Nuriddinovning portfolio websayti.",
     },
   },
   skills: {
-    title: "Skills",
-    description: "Key skills that define my professional identity.",
+    title: "Ko'nikmalar",
+    description: "Mening kasbiy shaxsimni belgilaydigan asosiy ko'nikmalar.",
     metadata: {
-      title: "Skills",
+      title: "Ko'nikmalar",
       description:
-        "Naman Barkiya's key skills that define his professional identity.",
+        "Asliddin Nuriddinovning kasbiy shaxsimni belgilaydigan asosiy ko'nikmalar.",
     },
   },
   projects: {
-    title: "Projects",
-    description: "Showcasing impactful projects and technical achievements.",
+    title: "Loyhalar",
+    description: "Ta'sirli loyihalar va texnik yutuqlarni namoyish qilish.",
     metadata: {
-      title: "Projects",
-      description: "Naman Barkiya's projects in building web applications.",
+      title: "Loyhalar",
+      description: "Asliddin Nuriddinovning loyihalar va texnik yutuqlarni namoyishlar.",
     },
   },
   contact: {
-    title: "Contact",
-    description: "Let's connect and explore collaborations.",
+    title: "Bog'lanish",
+    description: "Men bilan bog'lanish uchun ushbu qatorlarni to'ldirining!",
     metadata: {
-      title: "Contact",
-      description: "Contact Naman Barkiya.",
+      title: "Bog'lanish",
+      description: "Asliddin Nuriddinov bilan bog'lanish",
     },
   },
   contributions: {
-    title: "Contributions",
-    description: "Open-source contributions and community involvement.",
+    title: "Hissalar",
+    description: "Ochiq manbali hissalar va jamoatchilik ishtiroki.",
     metadata: {
       title: "Contributions",
       description:
-        "Naman Barkiya's open-source contributions and community involvement.",
+        "Asliddin Nuriddinov's open-source contributions and community involvement.",
     },
   },
   resume: {
-    title: "Resume",
-    description: "Naman Barkiya's resume.",
+    title: "Rezyume",
+    description: "Asliddin Nuriddinovning rezumesi.",
     metadata: {
-      title: "Resume",
-      description: "Naman Barkiya's resume.",
+      title: "Rezyume",
+      description: "Asliddin Nuriddinovning rezyumesi.",
     },
   },
   blogs: {
-    title: "Blogs",
+    title: "Bloglar",
     description:
-      "Thoughts on AI, software engineering, and building in public.",
+      "AI, dasturiy ta'minot injiniringi va omma oldida qurish haqidagi fikrlar.",
     metadata: {
-      title: "Blogs",
+      title: "Bloglar",
       description:
-        "Naman Barkiya's blog — thoughts on AI, software engineering, and building in public.",
+        "Asliddin Nuriddinovning dasturiy ta'minot injiniringi va omma oldida qurish haqidagi fikrlari",
     },
   },
   experience: {
-    title: "Experience",
-    description: "Professional journey and career timeline.",
+    title: "Tajribalar",
+    description: "Professional sayohat va martaba xronologiyasi.",
     metadata: {
       title: "Experience",
       description:
-        "Naman Barkiya's professional journey and experience timeline.",
+        "Asliddin Nuriddinovning professional sayohat va martaba xronologiyasi.",
     },
   },
 };
