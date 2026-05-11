@@ -9,7 +9,7 @@ export const siteConfig = {
     github: "https://github.com/Asliddin0807",
     templateRepo: "https://github.com/namanbarkiya/minimal-next-portfolio",
   },
-  ogImage: "/public/image.png",
+  ogImage: "https://drive.google.com/file/d/1Nsh06VAPb804GvAQLezQkewel5i-Kiyb/view?usp=drive_link",
   iconIco:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
   logoIcon:
