@@ -2,16 +2,14 @@ export const siteConfig = {
   name: "Asliddin Nuriddinov - Programming Engineer",
   authorName: "Asliddin Nuriddinov",
   username: "aslnuriddinov",
-  description:
-    "Asliddin Nuriddinov - Dasturchi muhandislik ishlari!",
+  description: "Asliddin Nuriddinov - Dasturchi muhandislik ishlari!",
   url: "https://nbarkiya.xyz",
   links: {
     twitter: "https:t.me/Asliddinjan_N",
     github: "https://github.com/Asliddin0807",
     templateRepo: "https://github.com/namanbarkiya/minimal-next-portfolio",
   },
-  ogImage:
-    "https://res.cloudinary.com/dvt5vkfwz/image/upload/v1767384721/naman_portfolio_og_image.png",
+  ogImage: "/public/image.png",
   iconIco:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
   logoIcon:
